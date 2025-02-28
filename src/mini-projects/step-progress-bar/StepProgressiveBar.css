@@ -1,0 +1,19 @@
+.steps_bottom{
+    display: flex;
+    justify-content:space-between;
+    padding: 1rem ;
+    width: 60%;
+    margin: auto;
+    background-color: red;
+}
+
+.steps_bottom button{
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: .5rem;
+}
+
+.steps_bottom button.next-btn{
+    background-color:rgba(0, 0, 255, 0.678);
+    color: white;
+}
