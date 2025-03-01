@@ -3,8 +3,8 @@ import PaginationTest from './PaginationTest'
 
 function App() {
   return (
-    <div>
-    <h1>Ok this is Our App.</h1>
+    <div className='app'>
+    <h1 className='title'>React js Mini Projects using Normal Css.</h1>
     <PaginationTest/>
     </div>
   )

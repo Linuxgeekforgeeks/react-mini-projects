@@ -1,0 +1,29 @@
+ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 4rem;
+  max-width: 1200px;
+  margin: auto;
+  padding: 1rem;
+}
+
+li {
+  list-style-type: none;
+  padding: 3rem;
+  width: 200px;
+  margin: .4rem;
+  background-color: red;
+  color: white;
+}
+
+.pagination {
+  margin-top: 2rem;
+}
+
+.pagination-btn {
+  padding: 1rem 2rem;
+  margin: 0.2rem;
+  background-color: #4caf50;
+  border: none;
+
+}

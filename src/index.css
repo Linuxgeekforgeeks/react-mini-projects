@@ -3,3 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+.title{
+  margin-bottom: 20px;
+}
+.app{
+  padding: 20px;
+  text-align: center;
+}
